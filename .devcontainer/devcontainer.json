@@ -1,7 +1,9 @@
 {
-    "name": "Python Practice",
-    "dockerFile": "Dockerfile",
-    "extensions": [
-        "ms-python.python"
-    ],
+	"name": "Python Sample",
+	// Dockerfileでイメージ・コンテナを作成
+	"dockerFile": "Dockerfile",
+	// リモート先のVS Codeにインストールする拡張機能
+	"extensions": [
+		"ms-python.python"
+	],
 }

@@ -1,4 +1,4 @@
-FROM python:3.9.15
-RUN pip install numpy
-RUN pip install pandas
-RUN pip install matplotlib
+FROM python:3
+RUN pip3 install numpy
+RUN pip3 install pandas
+RUN pip3 install matplotlib
